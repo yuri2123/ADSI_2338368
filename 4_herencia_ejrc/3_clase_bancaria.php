@@ -1,5 +1,5 @@
 <?php 
-    require_once("02_claseUsuario.php");
+    require_once("2_clase_usuario.php");
 
     class Cuentabancaria extends Usuario{
     

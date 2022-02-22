@@ -1,5 +1,5 @@
 <?php 
-    require_once("01_claseProducto.php");
+    require_once("1_claseproducto.php");
 
     class Mueble extends Producto{
 

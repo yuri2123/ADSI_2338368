@@ -35,7 +35,7 @@ public function setNombre($nombre){
     $this->Nombre = $nombre;
 }
 
-public function getDatosPersonales(){
+public function getDatos(){
     //Variable
     $datos = "
     Nombre: {$this->Nombre}<br>

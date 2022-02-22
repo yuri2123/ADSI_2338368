@@ -4,13 +4,13 @@ require_once("1_clase_cliente.php");
 require_once("2_clase_usuario.php");
 require_once("3_clase_cuenta_bancaria.php");
 
-echo "<h2>DATOS DE LA CLASE CLIENTE</h2>";
+
  $objCliente = new Cliente(3071345632, "juan diego lopez",1000000);
- echo $objCliente-> getDatosPersonales();
+
  echo "<br>"; 
 
 
- 
+ echo "<h2>DATOS DE LA CLASE USUARIO</h2>";
 $objCliente = new usuario("carlos@gmail.com",435257276);
 echo $objCliente->getDatosPersonales(); 
 

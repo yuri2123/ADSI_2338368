@@ -36,7 +36,10 @@ public function getCelular(){
 
 public function setNombre($nombre){
     $this->Nombre = $nombre;
-}
+} 
+public function setCelular($celular){
+    $this->Celular = $celular;
+     }
 
 public function getDatosEmpleado(){
     //Variable
@@ -48,13 +51,14 @@ public function getDatosEmpleado(){
 }
 
 //segundo metodo
-public function rete_furnte($sueldo){
+public function rete_fuente($sueldo){
     if ($this->sueldo > 3750000){
     $vrsueldo = $this->sueldo ;
     $vrsueldo = $vrsueldo * 0.09;
     $this -> sueldo = $vrsueldo;
+    echo "el empleado debe pagar rete fuente";
     }else{
-        echo "el empleado debe pagar rete fuente";
+        echo "el empleado no debe pagar rete fuente";
     }
     echo "el sueldo del empleado es:  $sueldo". " " ."nuevo sueldo";
     } 
